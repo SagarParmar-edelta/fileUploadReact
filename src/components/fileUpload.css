@@ -1,0 +1,11 @@
+.container {
+  width: 300px;
+}
+
+.part {
+  margin: 10px 0 10px 0;
+}
+
+.uploadButton {
+  width: 100%;
+}
