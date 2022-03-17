@@ -1,6 +1,8 @@
 import React, { Fragment, useState } from "react";
 import "./fileUpload.css";
 import Axios from "axios";
+import Modal2 from "./modal";
+import Modal from "./Modal";
 import NewModal from "./NewModal";
 const FileUpload = () => {
   const [file, setFile] = useState({});
@@ -44,6 +46,8 @@ const FileUpload = () => {
           />
         </div>
       </form>
+      <Modal2 />
+      <Modal />
       <NewModal />
     </Fragment>
   );
