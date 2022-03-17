@@ -1,5 +1,5 @@
 import React from "react";
-export default function Modal() {
+export default function NewModal() {
   return (
     <div className="content">
       <h2>Hello</h2>
