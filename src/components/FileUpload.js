@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import "./fileUpload.css";
 import Axios from "axios";
+import Model1 from "./Model1";
 import Modal2 from "./modal";
 import Modal from "./Modal";
 import NewModal from "./NewModal";
@@ -46,6 +47,7 @@ const FileUpload = () => {
           />
         </div>
       </form>
+      <Model1 />
       <Modal2 />
       <Modal />
       <NewModal />
