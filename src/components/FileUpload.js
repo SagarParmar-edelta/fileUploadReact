@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import "./fileUpload.css";
 import Axios from "axios";
+import Example from "./modal";
 const FileUpload = () => {
   const [file, setFile] = useState({});
   const [uploadedFile, setUploadedFile] = useState({});
