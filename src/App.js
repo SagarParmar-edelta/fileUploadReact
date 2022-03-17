@@ -1,10 +1,10 @@
 import FileUpload from "./components/FileUpload";
 import "./App.css";
-
 const App = () => {
   return (
     <div className="App">
       <FileUpload />
+      <MyButton />
     </div>
   );
 };
