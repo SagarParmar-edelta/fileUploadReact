@@ -29,4 +29,4 @@ function Example() {
 }
 
 render(<Example />);
-export Example;
+export default Example;
